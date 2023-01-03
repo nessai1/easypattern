@@ -1,0 +1,18 @@
+{
+    "name": "verevkin/easypattern",
+    "description": "A simple blade-like template engine",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Verevkin\\EasyPattern\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Daniil Verevkin",
+            "email": "werowkin@gmail.com"
+        }
+    ],
+    "require": {}
+}
