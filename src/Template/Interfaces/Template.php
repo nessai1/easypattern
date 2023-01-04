@@ -4,6 +4,13 @@ namespace Verevkin\EasyPattern\Template\Interfaces;
 
 interface Template
 {
+
+	/**
+	 *
+	 * @return void
+	 */
+	public function render(): void;
+
 	/**
 	 * Get rendered text of template with computed parameters
 	 *
