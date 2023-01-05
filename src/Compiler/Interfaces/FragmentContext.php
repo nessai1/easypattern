@@ -9,5 +9,5 @@ use Verevkin\EasyPattern\Template\Interfaces\TemplateParamsContainer;
  *
  * @see Compiler
  */
-interface CompilerContext extends TemplateParamsContainer
+interface FragmentContext extends TemplateParamsContainer
 {}
