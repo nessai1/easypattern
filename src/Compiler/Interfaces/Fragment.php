@@ -24,4 +24,8 @@ interface Fragment
 	public function computeFragment(): string;
 
 	public function getParentFragment(): Fragment|null;
+
+	public function getRootFragment(): Fragment;
+
+	public function getFragmentId(): int;
 }
